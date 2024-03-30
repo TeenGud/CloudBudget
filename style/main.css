@@ -345,4 +345,57 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     padding-top: 10px;
     margin-left: 34px;
 }
+/* app  */
+.app {
+    margin-top: 130px;
+    min-width: 1440px;
+    width: 100%;
+    height: 500px;
+    background-color: #ed4c5c;
+}
+.app__inner {
+    display: flex;
+    gap: 125px;
+    padding-top: 93.5px;
+}
+.app__left {
+}
+.app__left-h2 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 36px;
+    color: #fff;
+    max-width: 445px;
+    padding-top: 26px;
+}
+.app__left-p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #fff;
+    max-width: 445px;
+    padding-top: 48px;
+}
+.app__left-logos {
+    display: flex;
+    padding-top: 45px;
+    align-items: center;
+    gap: 21px;
+}
+.app-logos-a {
+    text-decoration: none;
+    transition: .2s;
+}
+.app-logos-a:hover {
+    opacity: 70%;
+}
+.app-logo {
+}
+.app__right {
+}
+.app-img {
+}
+
 
