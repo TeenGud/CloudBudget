@@ -14,6 +14,7 @@ body {
 }
 .container {
     max-width: 1110px;
+    width: 100%;
     margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6, p, li, a {
@@ -138,11 +139,14 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 
 /* video-section */
 .video-section {
+    width: 100%;
 }
 .video-section__inner {
     display: flex;
     gap: 125px;
     padding-top: 125px;
+    margin: 0 auto;
+    width: 100%;
 }
 .video-section-left {
 }
@@ -271,3 +275,74 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 .overview-card-a:hover {
     opacity: 70%;
 }
+
+/* feautures  */
+.features-section {
+}
+.features-section__inner {
+    padding-top: 62px;
+}
+.features-section-h2 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    color: #000;
+}
+.features-section-items {
+    display: flex;
+    /* align-items: center; */
+    gap: 30px;
+}
+.features-section-item {
+    width: 255px;
+    /* height: 226px; */
+    text-align: center;
+}
+.features-section-item:nth-child(1) .features-section-item-num {
+    margin-bottom: -62px;
+}
+.features-section-item:nth-child(2) .features-section-item-num {
+    margin-bottom: -55px;
+}
+.features-section-item:nth-child(1) .features-section-item-h6 {
+    padding-top: 0px;
+}
+.features-section-item:nth-child(2) .features-section-item-h6 {
+    padding-top: 4px;
+}
+.features-section-item:nth-child(1) .features-section-item-img {
+    margin-bottom: -3px;
+}
+.features-section-item-num {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 100px;
+    text-align: center;
+    color: rgba(16, 16, 16, 0.08);
+    margin-top: 65px;
+    margin-bottom: -50px;
+}
+.features-section-item-img {
+    align-self: center;
+}
+.features-section-item-h6 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #101010;
+    padding-top: 12px;
+}
+.features-section-item-p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #000;
+    max-width: 191px;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-left: 34px;
+}
+
