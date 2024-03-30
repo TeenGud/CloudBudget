@@ -460,3 +460,38 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     opacity: 70%;
 }
 
+/* footer  */
+.footer {
+    min-width: 1440px;
+    width: 100%;
+    height: 245px;
+    background-color: #fafafa;
+    margin-top: 135px;
+}
+.footer__inner {
+    padding-top: 44px;
+    margin-left: 3px;
+}
+.footer__inner-h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    color: #101010;
+}
+.footer__inner-p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+    max-width: 174px;
+    padding-top: 19px;
+}
+.footer__inner-pp {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: #101010;
+    padding-top: 44px;
+}
+
