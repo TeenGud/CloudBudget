@@ -495,3 +495,131 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     padding-top: 44px;
 }
 
+/* media  */
+@media screen and (max-width:1440px) {
+    .video-section__inner {
+        margin-left: 10vw;
+    }
+    .video-section {
+        margin: 0 auto;
+    }
+    .features-section__inner {
+        margin-left: 15vw;
+    }
+    .features-section-item-p {
+        margin-left: 0;
+    }
+
+}
+@media screen and (max-width:1210px) {
+    .header__left-img {
+        width: 60px;
+    }
+    .header__left-p {
+        font-size: 4vw;
+    }
+    .header-a {
+        width: 200px;
+        height: 70px;
+        padding-top: 25px;
+    }
+    .contact-us__inner {
+        margin-left: 20vw;
+    }
+    
+}
+@media screen and (max-width:1024px) {
+    .video-section__inner {
+        margin-left: 25vw;
+        gap: 200px;
+    }
+    .video-section-left-p {
+        max-width: 900px;
+    }
+    .overview-cards {
+        flex-wrap: wrap;
+    }
+
+    .features-section-items {
+        column-gap: 160px;
+    }
+    .features-section-h2 {
+        margin-left: 40vw;
+    }
+}
+@media screen and (max-width:900px) {
+    .video-section__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 140px;
+        margin-left: 40vw;
+    }
+    .video-section-left-p {
+        font-size: 24px;
+    }
+    .video-section-left-a {
+        font-size: 20px;
+    }
+    .video-section-left-h2 {
+        font-size: 38px;
+    }
+    .video-section-right-img {
+        width: 800px;
+    }
+
+    
+}
+@media screen and (max-width:630px) {
+    .video-section__inner {
+        margin-left: 70vw;
+    }
+    .video-section-left-p {
+        width: 800px;
+    }
+    .features-section-h2 {
+        margin-left: 70vw;
+    }
+    .features-section__inner {
+        margin-left: 40vw;
+    }
+
+}
+@media screen and (max-width:413px) {
+    .video-section__inner {
+        margin-left: 120vw;
+    }
+} 
+@media screen and (max-width:410px) {
+    .video-section__inner {
+        margin-left: 110vw;
+    }
+}
+@media screen and (max-width:371px) {
+    .header {
+        min-width: 280px;
+        width: 400vw;
+    }
+    .header__inner {
+        justify-content: space-evenly;
+    }
+    .overview {
+        min-width: 280px;
+        width: 400vw;
+    }
+    .overview-card {
+        width: 300px;
+    }
+    .overview-cards {
+        margin-left: 30vw;
+    }
+    .app {
+        min-width: 280px;
+        width: 400vw;
+    }
+    .app__inner {
+        margin-left: 20vw;
+    }
+    .contact-us-input {
+        width: 440px;
+    }
+}
